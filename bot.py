@@ -6,7 +6,7 @@ from slackclient import SlackClient
 class Bot(object):
     def __init__(self):
         self.slack_client = SlackClient(
-            "xoxb-864657978050-876992026788-rlraHLUGgRkbeuBYLJ4ZJQPx")
+            "put-activation-key")
         self.bot_name = "pep_man"
         self.bot_id = self.get_bot_id()
 
